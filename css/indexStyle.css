@@ -1,0 +1,60 @@
+.body {
+	background-color: white;
+}
+.uperrDiv {
+	width: 100%;
+	display: block;
+}
+.eachPart {
+	width: 22%;
+	height: auto;
+	overflow: auto;
+	margin-left: 2%;
+	float: left;
+}
+#blue {
+	background-color: #00C0EF;
+}
+#green {
+	background-color: #00A65A;
+}
+#orange {
+	background-color: #F39C11;
+}
+#red {
+	background-color: #DE4B39;
+}
+.eachPartUp {
+	width: 100%;
+	float: left;
+}
+.eachPartDown {
+	width: 100%;
+	float: left;
+	color: white;
+}
+#downBlue {
+	background-color: #009EC5;
+}
+#downGreen {
+	background-color: #017A45;
+}
+#downOrange {
+	background-color: #B26F04;
+}
+#downRed {
+	background-color: #A8382A;
+}
+.eachPartUpLeft {
+	width: 50%;
+	float: left;
+	color: white;
+}
+.eachPartUpRight {
+	width: 50%;
+	float: left;
+}
+.arrowIcon {
+	color: white !important;
+	font-size: 26px !important;
+}
