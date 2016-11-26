@@ -26,12 +26,15 @@
 }
 .eachPartUp {
 	width: 100%;
+	height: 100px;
 	float: left;
 }
 .eachPartDown {
 	width: 100%;
 	float: left;
 	color: white;
+	height: auto;
+	padding-top: 6px;
 }
 #downBlue {
 	background-color: #009EC5;
@@ -46,15 +49,40 @@
 	background-color: #A8382A;
 }
 .eachPartUpLeft {
-	width: 50%;
+	width: 65%;
 	float: left;
 	color: white;
+	text-align: left;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-top: 20px;
 }
 .eachPartUpRight {
-	width: 50%;
+	width: 35%;
 	float: left;
+	text-align: center;
+	padding-right: 10px;
+	padding-top: 20px;
 }
 .arrowIcon {
+	width: 50%;
+	float: left;
 	color: white !important;
-	font-size: 26px !important;
+	font-size: 18px !important;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+.detailText {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.bigIcons {
+	font-size: 70px !important;
+	color: #787878 !important;
+}
+.textNumbers {
+	font-size: 22px;
+	padding-bottom: 5px;
 }
