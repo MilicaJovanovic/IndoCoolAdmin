@@ -1,0 +1,53 @@
+body {
+	background-color: #E6EDF3 !important;
+}
+.title {
+	width: 100%;
+	margin-left: 2%;
+}
+.titleFirst {
+	width: 13%;
+	float: left;
+	text-align: left;
+	font-size: 26px;
+	color: #41648C;
+}
+.titleSecond {
+	width: 50%;
+	float: left;
+	text-align: left;
+	font-size: 24px;
+	color: gray;
+}
+.content {
+	width: 100%;
+	background-color: white;
+	height: auto;
+}
+
+
+.footer {
+	width: 100%;
+	height: 40px;
+	color: #417C9C;
+	font-size: 14px;
+	background-color: white;
+	float: left;
+	display: block;
+	margin-top: 10px;
+	margin-left: 2%;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+.footerText {
+	width: 50%;
+	float: left;
+	display: block;
+}
+.footerVersion {
+	width: 50%;
+	float: left;
+	display: block;
+	text-align: right;
+	padding-right: 5px;
+}

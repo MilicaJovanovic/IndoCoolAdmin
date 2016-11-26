@@ -1,9 +1,18 @@
-.body {
-	background-color: white;
+body {
+	background-color: #E6EDF3 !important;
 }
 .uperrDiv {
 	width: 100%;
 	display: block;
+	height: auto;
+	float: left;
+	background-color: #E6EDF3 !important;
+}
+.indexTitle {
+	color: #41648C;
+	font-size: 26px;
+	margin-left: 2%;
+	background-color: #E6EDF3 !important;
 }
 .eachPart {
 	width: 22%;
@@ -85,4 +94,173 @@
 .textNumbers {
 	font-size: 22px;
 	padding-bottom: 5px;
+}
+.bottomDiv {
+	width: 100%;
+	height: auto;
+	margin-left: 2%;
+	display: block;
+	float: left;
+	margin-top: 30px;
+}
+.leftBottomDiv {
+	width: 54%;
+	height: 405px;
+	display: block;
+	float: left;
+	background-color: #72DADB;
+}
+.rigthBottomDiv {
+	width: 37%;
+	height: 300px;
+	display: block;
+	float: left;
+	background-color: #72DADB;
+	
+}
+.titleDiv {
+	width: 39%;
+	height: auto;
+	color: #417C9C;
+	font-size: 16px;
+	padding-left: 10px;
+	display: block;
+	float: left;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-left: 2%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.listDiv {
+	width: 39%;
+	height: auto;
+	display: block;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.listItem {
+	width: 100%;
+	height: 80px;
+}
+.leftItem {
+	width: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	float: left;
+}
+.iconBlock {
+	background-color: #535353;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-left: 10px;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+.userIcon {
+	color: white !important;
+	font-size: 36px !important;
+}
+.middleItem {
+	width: 50%;
+	margin-left: 2%;
+	float: left;
+	display: block;
+	padding-top: 15px;
+}
+.middleTitle {
+	color: #58769A;
+	font-size: 16px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.middleText {
+	color: #CCCDD2;
+	font-size: 12px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.rigthItem {
+	width: 26%;
+	display: block;
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+}
+.blueBtn {
+	height: 25px;
+	background-color: #02BDF0;
+	color: white;
+	font-size: 14px;
+	border: none;
+	margin-top: 25px;
+}
+.greenBtn {
+	height: 25px;
+	background-color: #29BC2D;
+	color: white;
+	font-size: 14px;
+	border: none;
+	margin-top: 25px;
+}
+.redBtn {
+	height: 25px;
+	background-color: #DB4431;
+	color: white;
+	font-size: 14px;
+	border: none;
+	margin-top: 25px;
+}
+.orangeBtn {
+	height: 25px;
+	background-color: #F39C11;
+	color: white;
+	font-size: 14px;
+	border: none;
+	margin-top: 25px;
+}
+.footerDiv {
+	width: 39%;
+	height: auto;
+	color: #417C9C;
+	font-size: 16px;
+	padding-left: 10px;
+	display: block;
+	float: left;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-left: 2%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.footer {
+	width: 100%;
+	height: 40px;
+	color: #417C9C;
+	font-size: 14px;
+	background-color: white;
+	float: left;
+	display: block;
+	margin-top: 10px;
+	margin-left: 2%;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+.footerText {
+	width: 50%;
+	float: left;
+	display: block;
+}
+.footerVersion {
+	width: 50%;
+	float: left;
+	display: block;
+	text-align: right;
+	padding-right: 5px;
 }
