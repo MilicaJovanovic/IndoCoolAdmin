@@ -23,9 +23,49 @@ body {
 	width: 100%;
 	background-color: white;
 	height: auto;
+	margin-left: 2% !important;
 }
-
-
+#ordersTable {
+	color: #417C9C !important;
+	margin-top: 50px !important;
+}
+.tableHeader {
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+.downloadIcon {
+	font-size: 28px !important;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: block;
+	float: left;
+}
+#addBtn {
+	color: white;
+	font-size: 12px;
+	height: 24px;
+	width: 40px;
+	display: block;
+	float: left;
+	background-color: #08A499;
+	border: none;
+}
+.searchText {
+	color: #417C9C;
+	font-size: 14px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 70%;
+}
+.searchInput {
+	border: 1px solid gray;
+	background-color: white;
+	width: 20%;
+	height: 30px;
+	float: left;
+}
 .footer {
 	width: 100%;
 	height: 40px;
@@ -50,4 +90,93 @@ body {
 	display: block;
 	text-align: right;
 	padding-right: 5px;
+}
+#myModal {
+	color: #417C9C;
+}
+.lineCombo {
+	width: 100%;
+	height: auto;
+	float: left;
+	display: block;
+}
+.inputTitle {
+	width: 30%;
+	float: left;
+	display: block;
+	font-weight: bold;
+}
+.userInput {
+	width: 40%;
+	float: left;
+	display: block;
+}
+.separateInput {
+	margin-left: 30% !important;
+	margin-bottom: 10px;
+}
+.plusIcon {
+	width: 5%;
+	font-size: 16px !important;
+	float: left;
+	display: block;
+}
+.addMoreText {
+	width: 70%;
+	color: #FC9A01;
+	font-size: 12px;
+	float: left;
+	display: block;
+}
+.buttonsDiv {
+	width: 100%;
+	display: block;
+	float: left;
+	margin-left: 58%;
+}
+.cancelBtn {
+	float: left;
+	display: block;
+	width: 20%;
+	height: 30px;
+	border: none !important;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	background-color: #0AA498 !important;
+	margin-right: 2%;
+}
+.submitBtn {
+	float: left;
+	display: block;
+	width: 20%;
+	height: 30px;
+	border: none !important;
+	font-size: 16px;
+	color: white !important;
+	font-weight: bold !important;
+	background-color: #3C8DBC !important;
+}
+.modal-footer {
+	border: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+::-webkit-input-placeholder {
+   padding: 5px !important;
+   font-size: 11px !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+   padding: 5px !important;
+   font-size: 11px !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   padding: 5px !important;
+   font-size: 11px !important;
+}
+:-ms-input-placeholder {
+   padding: 5px !important;
+   font-size: 11px !important;
 }
