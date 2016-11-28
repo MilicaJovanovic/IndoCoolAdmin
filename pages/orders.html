@@ -55,7 +55,7 @@
         <i class="fa fa-cloud-download downloadIcon" aria-hidden="true"></i>
         <button id="addBtn" data-toggle="modal" data-target="#myModal"> ADD </button>
         <p class="searchText"> Cari: </p>
-        <input class="serachInput">
+        <input class="serachInput" ng-model="search">
       </div>
       <table class="table table-striped" id="ordersTable">
         <tr>
@@ -67,9 +67,13 @@
           <th> STATUS </th>
           <th> AKSI </th>
         </tr>
-        <tr ng-repeat="x in names">
-          <td> {{ x.Name }} </td>
-          <td> {{ x.Country }} </td>
+        <tr ng-repeat="x in orders | filter : search">
+          <td> {{ x.dateCreated | date }} </td>
+          <td> {{ x.custName }} </td>
+          <td> {{ x.orderType }} </td>
+          <td> {{ x.orderAddess }} </td>
+          <td> {{ x.orderDate | date}} {{ x.orderTime | date:'hh:mm'}}</td>
+          <td> {{ x.orderStatus }} </td>
         </tr>
       </table>
     </div>
