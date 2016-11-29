@@ -10,6 +10,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="../js/jquery.timepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../js/jquery.timepicker.css">
   <script src="../js/orders.js"></script>
 </head>
 <body ng-app="MyApp" ng-controller="MyCtrl">
@@ -95,22 +99,26 @@
         <div class="modal-body">
           <div class="lineCombo">
             <p class="inputTitle">Jenis Layanan : </p>
-            <input type="text" class="userInput">
+            <select id="typeSelect" ng-model="orderType.value">
+              <option value="CUCI AC">CUCI AC</option>
+              <option value="SERVIS AC" selected="selected">SERVIS AC</option>
+              <option value="INSTALASI AC">INSTALASI AC</option>
+            </select>
           </div>
           <div class="lineCombo">
             <p class="inputTitle"> Detail Penerima : </p>
-            <input type="text" name="" placeholder="Nama" class="userInput">
+            <input type="text" name="" placeholder="Nama" class="userInput" ng-model="name.value">
           </div>
-          <input type="text" name="" placeholder="Alamat" class="userInput separateInput">
-          <input type="text" name="" placeholder="No. Telepon" class="userInput separateInput">
+          <input type="text" name="" placeholder="Alamat" class="userInput separateInput" ng-model="address.value">
+          <input type="text" name="" placeholder="No. Telepon" class="userInput separateInput" ng-model="phone.value">
           <div class="lineCombo">
             <p class="inputTitle"> Detail Unit : </p>
-            <input type="text" name="" placeholder="Jenis" class="userInput">
+            <input type="text" name="" placeholder="Jenis" class="userInput" ng-model="unit.value">
           </div>
-          <input type="text" name="" placeholder="Kondisi" class="userInput separateInput">
+          <input type="text" name="" placeholder="Kondisi" class="userInput separateInput" ng-model="cond.value">
           <p class="inputTitle" style="margin-left: 30% !important;"> Kedatangan </p>
-          <input type="text" name="" placeholder="Tangai" class="userInput separateInput">
-          <input type="text" name="" placeholder="Jam" class="userInput separateInput">
+          <input type="text" name="" placeholder="Tangai" class="userInput separateInput" id="date" ng-model="date.value">
+          <input type="text" name="" placeholder="Jam" class="userInput separateInput" id="time" ng-model="time.value">
           <div class="lineCombo" style="margin-left: 30% !important;">
             <i class="fa fa-plus-circle plusIcon" aria-hidden="true"></i>
             <p class="addMoreText"> Add more unit </p>
@@ -119,7 +127,7 @@
         <div class="modal-footer">
           <div class="buttonsDiv">
             <button type="button" class="cancelBtn" data-dismiss="modal"> Cancel </button>
-            <button type="button" class="submitBtn" data-dismiss="modal"> Submit </button>
+            <button type="button" class="submitBtn" data-dismiss="modal" ng-click="submit()"> Submit </button>
           </div>
         </div>
       </div>
