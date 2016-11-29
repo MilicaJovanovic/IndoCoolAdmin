@@ -392,3 +392,7 @@ body {
 :-ms-input-placeholder {
    padding: 10px !important;
 }
+a {
+  text-decoration: none;
+  color: white !important;
+}
